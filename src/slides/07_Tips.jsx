@@ -3,22 +3,8 @@ export default function NewFeature() {
     <div className="slide">
       <h2>新機能: 定期実行 (Loop)</h2>
       <p style={{ marginBottom: '24px' }}>
-        プロンプトやコマンドを<span className="highlight">一定間隔で自動実行</span>できるようになった
+        <span className="highlight">Claude Code Web の画面から</span>定期実行を設定できるようになった
       </p>
-      <div className="code-block">
-        <div>
-          <span className="comment">{'// 例: 5分ごとにデプロイ状況をチェック'}</span>
-        </div>
-        <div>
-          <span className="keyword">/loop</span> <span className="string">5m</span> デプロイの状態を確認して
-        </div>
-        <div style={{ marginTop: '16px' }}>
-          <span className="comment">{'// 例: PR の状態を定期的に監視'}</span>
-        </div>
-        <div>
-          <span className="keyword">/loop</span> <span className="string">10m</span> /babysit-prs
-        </div>
-      </div>
       <div className="grid" style={{ marginTop: '32px' }}>
         <div className="card">
           <h3>放置でOK</h3>
