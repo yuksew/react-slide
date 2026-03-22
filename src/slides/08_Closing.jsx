@@ -2,9 +2,6 @@ export default function Closing() {
   return (
     <div className="slide">
       <h1>試してみよう！！</h1>
-      <p style={{ fontSize: '1.4rem', marginTop: '24px' }}>
-        <span className="highlight">claude.ai/code</span>
-      </p>
       <p style={{ marginTop: '32px', fontSize: '1.2rem', color: 'rgba(0,0,0,0.5)' }}>
         https://github.com/yuksew/react-slide
       </p>
