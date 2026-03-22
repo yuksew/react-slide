@@ -18,12 +18,12 @@ export default function NewFeature() {
       </div>
       <div className="grid" style={{ marginTop: '32px' }}>
         <div className="card">
-          <h3>放置でOK</h3>
-          <p>クラウドで動くので PC を閉じても大丈夫。寝ている間も働いてくれる</p>
+          <h3>完全自動</h3>
+          <p>一度設定すれば、あとはクラウド上で実行し続けてくれる</p>
         </div>
         <div className="card">
-          <h3>スマホと相性抜群</h3>
-          <p>PC がなくてもスマホからセット&確認できる</p>
+          <h3>スマホからでも確認</h3>
+          <p>定期実行の結果はスマホからでもすぐ確認できる</p>
         </div>
       </div>
     </div>

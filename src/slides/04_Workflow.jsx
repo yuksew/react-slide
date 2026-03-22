@@ -15,7 +15,7 @@ export default function Workflow() {
               display: 'flex',
               alignItems: 'center',
               gap: '20px',
-              background: 'rgba(255,255,255,0.05)',
+              background: 'rgba(0,0,0,0.03)',
               borderRadius: '12px',
               padding: '16px 24px',
             }}
@@ -31,7 +31,7 @@ export default function Workflow() {
                 justifyContent: 'center',
                 fontWeight: 700,
                 fontSize: '1.1rem',
-                color: '#0a0a0a',
+                color: '#ffffff',
                 flexShrink: 0,
               }}
             >

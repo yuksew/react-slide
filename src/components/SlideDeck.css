@@ -1,8 +1,8 @@
 .slide-deck {
   width: 100vw;
   height: 100vh;
-  background: #0a0a0a;
-  color: #f0f0f0;
+  background: #ffffff;
+  color: #1a1a1a;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -69,9 +69,9 @@
 }
 
 .slide-controls button {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  color: #f0f0f0;
+  background: rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  color: #1a1a1a;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -84,7 +84,7 @@
 }
 
 .slide-controls button:hover:not(:disabled) {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.12);
 }
 
 .slide-controls button:disabled {
@@ -94,18 +94,18 @@
 
 .slide-counter {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.45);
   font-variant-numeric: tabular-nums;
 }
 
 .progress-bar {
   height: 3px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.08);
 }
 
 .progress-fill {
   height: 100%;
-  background: linear-gradient(90deg, #d97706, #f59e0b);
+  background: linear-gradient(90deg, #b45309, #d97706);
   transition: width 0.5s ease-out;
 }
 
@@ -121,7 +121,7 @@
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 24px;
-  background: linear-gradient(135deg, #f59e0b, #d97706, #fbbf24);
+  background: linear-gradient(135deg, #d97706, #b45309, #e69500);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -131,26 +131,26 @@
   font-size: 2.2rem;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #fbbf24;
+  color: #b45309;
 }
 
 .slide h3 {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 16px;
-  color: #f59e0b;
+  color: #c2680a;
 }
 
 .slide p {
   font-size: 1.3rem;
   line-height: 1.8;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.7);
   margin-bottom: 16px;
 }
 
 .slide .subtitle {
   font-size: 1.5rem;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .slide ul {
@@ -163,21 +163,21 @@
 .slide ul li {
   font-size: 1.3rem;
   line-height: 2;
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(0, 0, 0, 0.8);
   padding-left: 28px;
   position: relative;
 }
 
 .slide ul li::before {
-  content: '▸';
+  content: '\25B8';
   position: absolute;
   left: 0;
-  color: #f59e0b;
+  color: #d97706;
 }
 
 .slide .code-block {
-  background: #1a1a2e;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #f5f5f5;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   padding: 24px 32px;
   margin: 24px auto;
@@ -194,19 +194,19 @@
 }
 
 .slide .code-block .keyword {
-  color: #c084fc;
+  color: #7c3aed;
 }
 
 .slide .code-block .string {
-  color: #34d399;
+  color: #059669;
 }
 
 .slide .code-block .function {
-  color: #60a5fa;
+  color: #2563eb;
 }
 
 .slide .highlight {
-  color: #fbbf24;
+  color: #b45309;
   font-weight: 600;
 }
 
@@ -225,8 +225,8 @@
 }
 
 .slide .card {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 16px;
   padding: 28px;
 }
@@ -249,17 +249,17 @@
 
 .slide .comparison .arrow {
   font-size: 2rem;
-  color: #f59e0b;
+  color: #d97706;
 }
 
 .slide .comparison .box {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 16px;
   padding: 24px;
 }
 
 .slide .comparison .box.highlight-box {
-  border-color: #f59e0b;
-  background: rgba(245, 158, 11, 0.08);
+  border-color: #d97706;
+  background: rgba(217, 119, 6, 0.06);
 }
