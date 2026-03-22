@@ -36,6 +36,25 @@ export default function SlideDeck({ slides }) {
     return () => window.removeEventListener('keydown', handleKey);
   }, [next, prev]);
 
+  useEffect(() => {
+    let startX = 0;
+    const handleTouchStart = (e) => {
+      startX = e.touches[0].clientX;
+    };
+    const handleTouchEnd = (e) => {
+      const dx = e.changedTouches[0].clientX - startX;
+      if (Math.abs(dx) > 50) {
+        dx < 0 ? next() : prev();
+      }
+    };
+    window.addEventListener('touchstart', handleTouchStart);
+    window.addEventListener('touchend', handleTouchEnd);
+    return () => {
+      window.removeEventListener('touchstart', handleTouchStart);
+      window.removeEventListener('touchend', handleTouchEnd);
+    };
+  }, [next, prev]);
+
   const Slide = slides[current];
 
   return (
