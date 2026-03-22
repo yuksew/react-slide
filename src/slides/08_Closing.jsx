@@ -7,6 +7,9 @@ export default function Closing() {
         <span className="highlight">claude.ai/code</span>
       </p>
       <p style={{ marginTop: '32px', fontSize: '1rem', color: 'rgba(255,255,255,0.4)' }}>
+        𝕏 @yuksew
+      </p>
+      <p style={{ marginTop: '8px', fontSize: '1rem', color: 'rgba(255,255,255,0.4)' }}>
         github.com/yuksew/react-slide
       </p>
       <p style={{ marginTop: '16px', color: 'rgba(255,255,255,0.5)' }}>
