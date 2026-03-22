@@ -4,7 +4,7 @@ export default function Workflow() {
       <h2>利用方法</h2>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', marginTop: '32px' }}>
         {[
-          { step: '1', text: 'ブラウザでリポジトリを開く' },
+          { step: '1', text: 'GitHub リポジトリを選ぶ' },
           { step: '2', text: 'やりたいことをチャットで伝える' },
           { step: '3', text: 'Claude がコードを生成・修正してくれる' },
           { step: '4', text: '結果を確認して、そのまま commit & PR' },
