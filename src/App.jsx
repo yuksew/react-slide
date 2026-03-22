@@ -5,10 +5,11 @@ import WhyGreat from './slides/03_WhyGreat';
 import Workflow from './slides/04_Workflow';
 import Demo from './slides/05_Demo';
 import DemoScreenshot from './slides/06_DemoScreenshot';
-import NewFeature from './slides/07_Tips';
-import Closing from './slides/08_Closing';
+import Iteration from './slides/07_Iteration';
+import NewFeature from './slides/08_Tips';
+import Closing from './slides/09_Closing';
 
-const slides = [Title, WhatIs, WhyGreat, Workflow, Demo, DemoScreenshot, NewFeature, Closing];
+const slides = [Title, WhatIs, WhyGreat, Workflow, Demo, DemoScreenshot, Iteration, NewFeature, Closing];
 
 export default function App() {
   return <SlideDeck slides={slides} />;
