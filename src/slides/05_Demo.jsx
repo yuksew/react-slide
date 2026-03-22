@@ -11,7 +11,7 @@ export default function Demo() {
         </div>
         <div style={{ marginTop: '8px' }}>
           <span className="string">
-            &quot;React を使ってカンファレンス用のスライドを作りたい&quot;
+            React を使ってカンファレンス用のスライドを作りたいです。テーマは Claude Code Web は良いぞ です
           </span>
         </div>
         <div style={{ marginTop: '16px' }}>
