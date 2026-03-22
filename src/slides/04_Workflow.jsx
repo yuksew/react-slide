@@ -9,35 +9,9 @@ export default function Workflow() {
           { step: '3', text: 'Claude がコードを生成・修正してくれる' },
           { step: '4', text: '結果を確認して、そのまま commit & PR' },
         ].map(({ step, text }) => (
-          <div
-            key={step}
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '20px',
-              background: 'rgba(0,0,0,0.03)',
-              borderRadius: '12px',
-              padding: '16px 24px',
-            }}
-          >
-            <span
-              style={{
-                background: 'linear-gradient(135deg, #d97706, #f59e0b)',
-                borderRadius: '50%',
-                width: '40px',
-                height: '40px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                fontWeight: 700,
-                fontSize: '1.1rem',
-                color: '#ffffff',
-                flexShrink: 0,
-              }}
-            >
-              {step}
-            </span>
-            <span style={{ fontSize: '1.2rem' }}>{text}</span>
+          <div key={step} className="step-item">
+            <span className="step-number">{step}</span>
+            <span className="step-text">{text}</span>
           </div>
         ))}
       </div>
