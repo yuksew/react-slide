@@ -1,14 +1,13 @@
 export default function Workflow() {
   return (
     <div className="slide">
-      <h2>典型的なワークフロー</h2>
+      <h2>利用方法</h2>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', marginTop: '32px' }}>
         {[
-          { step: '1', text: 'GitHub リポジトリを Claude Code Web で開く' },
-          { step: '2', text: '自然言語でやりたいことを伝える' },
-          { step: '3', text: 'Claude がコードを生成・修正' },
-          { step: '4', text: 'ターミナルでテスト・ビルドを確認' },
-          { step: '5', text: 'そのまま commit & PR を作成' },
+          { step: '1', text: 'スマホでリポジトリを開く — 電車の中でもOK' },
+          { step: '2', text: 'やりたいことをチャットで伝える' },
+          { step: '3', text: 'Claude がコードを生成・修正してくれる' },
+          { step: '4', text: '結果を確認して、そのまま commit & PR' },
         ].map(({ step, text }) => (
           <div
             key={step}
