@@ -1,7 +1,7 @@
 export default function WhyGreat() {
   return (
     <div className="slide">
-      <h2>何がいいのか</h2>
+      <h2>いいところ</h2>
       <ul>
         <li>
           <span className="highlight">インストール不要</span>
